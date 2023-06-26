@@ -1,4 +1,4 @@
-##CLI Usage
+## CLI Usage
 
  - Follow the setup process below for gpt4free
  - In the gpt4free-cli folder, run command "python3 ./cli.py"
