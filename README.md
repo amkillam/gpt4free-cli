@@ -1,3 +1,12 @@
+##CLI Usage
+
+ - Follow the setup process below for gpt4free
+ - In the gpt4free-cli folder, run command "python3 ./cli.py"
+ - Enter your prompt, hit enter, and receive the output in your terminal!
+ - To exit, enter a keyboard interrupt (Ctrl+C)
+    
+Note that each prompt starts a new conversation - I plan to fix this at a later date.
+
 ![image](https://github.com/onlpx/gpt4free-v2/assets/98614666/7886223b-c1d1-4260-82aa-da5741f303bb)
 
 By using this repository or any code related to it, you agree to the [legal notice](./LEGAL_NOTICE.md). The author is not responsible for any copies, forks, or reuploads made by other users. This is the author's only account and repository. To prevent impersonation or irresponsible actions, you may comply with the GNU GPL license this Repository uses.
@@ -31,11 +40,11 @@ Docker is for now not available but I would be happy if someone contributes a PR
 #### Setting up the project:
 1. Clone the GitHub repository: 
 ```
-git clone https://github.com/xtekky/gpt4free.git
+git clone https://github.com/amkillam/gpt4free-cli.git
 ```
 2. Navigate to the project directory:
 ```
-cd gpt4free
+cd gpt4free-cli
 ```
 3. (Recommended) Create a virtual environment to manage Python packages for your project:
 ```
