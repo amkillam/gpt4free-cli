@@ -3,7 +3,6 @@
 #If the user enters "ctrl+c" to quit, print "Goodbye!" and exit the program.
 
 import g4f
-import time
 import sys
 import io
 
@@ -18,7 +17,7 @@ while True:
             user_input = input(": ")
         saved_stdout = sys.stdout
         sys.stdout = io.StringIO()
-        response = g4f.ChatCompletion.create(model='gpt-4', messages=[{"role":"user","content":user_input}], provider=g4f.Provider.Bing, stream=True)
+        response = g4f.ChatCompletion.create(model='gpt-4', messages=[{"role":"user","content":user_input}], provider=g4f.Provider.Bing, stream=False)
         sys.stdout = saved_stdout
         print_message=""
         for message in response:
